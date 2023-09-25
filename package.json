@@ -3,6 +3,7 @@
   "version": "0.20230923.0",
   "description": "A TypeScript, fetch-based API client for https://spacetraders.io/ v2",
   "author": "OpenAPI-Generator",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nhowell/spacetraders-fetch-api.git"
