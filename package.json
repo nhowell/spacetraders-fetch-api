@@ -1,7 +1,7 @@
 {
   "name": "spacetraders-fetch-api",
   "version": "0.20230923.0",
-  "description": "OpenAPI client for SpaceTraders v2",
+  "description": "A TypeScript, fetch-based API client for https://spacetraders.io/ v2",
   "author": "OpenAPI-Generator",
   "repository": {
     "type": "git",
