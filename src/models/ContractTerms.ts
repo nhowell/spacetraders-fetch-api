@@ -27,7 +27,7 @@ import {
 } from './ContractPayment';
 
 /**
- * The terms to fulfill the contract.
+ * Terms of the contract needed to fulfill it.
  * @export
  * @interface ContractTerms
  */

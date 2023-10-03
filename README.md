@@ -25,14 +25,10 @@ npm run build
 
 ## Regenerating
 
+To run the generator, you'll need the Java runtime. Then run:
+
 ```
-openapi-generator generate \
- -i https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json\?fromExportButton\=true\&snapshotType\=http_service\&deref\=optimizedBundle \
- -g typescript-fetch \
- --additional-properties=npmName="spacetraders-fetch-api" \
- --additional-properties=supportsES6=true \
- --additional-properties=stringEnums=true \
- --skip-validate-spec
+npm run generate
 ```
 
 Note: We're skipping validating the spec (i.e. `--skip-validate-spec`) since there is a validation issue. Ideally, this would not be required.

@@ -14,7 +14,7 @@
 
 import { exists, mapValues } from '../runtime';
 /**
- * Payments for the contract.
+ * 
  * @export
  * @interface ContractPayment
  */

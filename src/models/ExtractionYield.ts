@@ -21,7 +21,7 @@ import {
 } from './TradeSymbol';
 
 /**
- * Yields from the extract operation.
+ * A yield from the extraction operation.
  * @export
  * @interface ExtractionYield
  */
