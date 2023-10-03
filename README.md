@@ -28,7 +28,6 @@ npm run build
 ```
 openapi-generator generate \
  -i https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json\?fromExportButton\=true\&snapshotType\=http_service\&deref\=optimizedBundle \
- -o spacetraders-fetch-api \
  -g typescript-fetch \
  --additional-properties=npmName="spacetraders-fetch-api" \
  --additional-properties=supportsES6=true \
