@@ -1,8 +1,4 @@
 .gitignore
-.npmignore
-.openapi-generator-ignore
-README.md
-package.json
 src/apis/AgentsApi.ts
 src/apis/ContractsApi.ts
 src/apis/DefaultApi.ts
