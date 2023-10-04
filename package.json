@@ -13,7 +13,7 @@
   "module": "./dist/esm/index.js",
   "sideEffects": false,
   "scripts": {
-    "build": "tsc && tsc -p tsconfig.esm.json",
+    "build": "tsc",
     "prepare": "npm run build",
     "generate": "openapi-generator-cli generate -g typescript-fetch --additional-properties=npmName=supportsES6=true,stringEnums=true --skip-validate-spec -i https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json?fromExportButton=true&snapshotType=http_service&deref=optimizedBundle"
   },
