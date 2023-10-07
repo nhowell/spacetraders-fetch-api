@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "generate": "openapi-generator-cli generate -g typescript-fetch -o ./src --additional-properties=supportsES6=true,stringEnums=true --skip-validate-spec -i https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json?fromExportButton=true&snapshotType=http_service&deref=optimizedBundle"
+    "generate": "openapi-generator-cli generate -g typescript-fetch -o src --additional-properties=supportsES6=true,stringEnums=true --skip-validate-spec -i https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json?fromExportButton=true&snapshotType=http_service&deref=optimizedBundle"
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.7.0",
