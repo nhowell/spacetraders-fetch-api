@@ -30,5 +30,3 @@ To run the generator, you'll need the Java runtime. Then run:
 ```
 npm run generate
 ```
-
-Note: We're skipping validating the spec (i.e. `--skip-validate-spec`) since there is a validation issue. Ideally, this would not be required.
